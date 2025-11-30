@@ -45,35 +45,108 @@ const androidappdetails = () => {
 const workdetails = () => {
   let arr = [
     {
-      duration: "2020/Aug - Present",
-      name: "Bosch India (Mobinius Payroll)",
-      href: "https://www.mobinius.com/",
-      jobrole: "Senior Software Engineer",
+      duration: "2024/Aug - Till Date",
+      name: "Gen Digital (nortonlifelock.com)",
+      href: "https://www.nortonlifelock.com/",
+      jobrole: "Senior Engineer",
       Highlights: `
-        ✔ Responsible for maintaining/Bug fixing and developing UI features in scientific IOT project using
-        react-native with Bluetooth (BLE manager)
-        ✔ Developed chat application for web app using React.js, material UI, Graph Ql with twillio.
-        ✔ Completely configured Twillio for instant texts, audio, video messages using WEBRTC protocol
-        ✔ Developed react with typescript project from scratch using Webpack for an supply chain application on food tracking
+        ✔ Implemented comprehensive RESTful financial APIs using Node.js, handling complex operations including transaction management, account linking, and asset tracking
+        ✔ Designed and developed sophisticated financial data aggregation services, implementing advanced analytics for expense tracking, income analysis, and savings rate calculations with support for multiple time-slice views (daily/weekly/monthly) and trend analysis
+        ✔ Implemented robust security measures including JWT authentication, API key validation while integrating with multiple financial services including Plaid, Equifax, and banking institutions
+        ✔ Implementation of React Query for smart data fetching and caching with Centralized Redux store with optimized action creators
+        ✔ Created AI chatbot for natural interaction with a complete application and able to do interactions and create, update and fetch all application details for the user
+        ✔ Used Redis server for data caching and token management and jest for functional testing of the api's
+        ✔ Migrated monolithic express server into server less architecture using API gateway, lambda
+        Stack: Lambda, Next js, Express, Kotlin, Gemini, Api Gateway, Redis
         `,
     },
     {
-      duration: "2018/Dec - 2020/Aug",
-      name: "Infosys",
-      href: "https://www.infosys.com/",
-      jobrole: "Systems Engineer",
+      duration: "2021/May - 2024/Aug",
+      name: "Brillio (Realtor.com)",
+      href: "https://www.realtor.com/",
+      jobrole: "Senior engineer",
       Highlights: `
-        ✔ Developed admin and associate/student web application 
-        ✔ In which admin gives questions for targeted associates and these questions are in turn answered by those associates. 
-        ✔  handled image/video/hotspot question types,complex logic for fetching questions,leaderboard data with various filters and more complex features`,
+        ✔ Used and Created A/B testing strategies for high traffic large scale applications
+        ✔ Worked on various micro front-end applications and interconnections between them
+        ✔ Used React context api for state management for micro-frontends
+        ✔ Written Rest api's and GraphQL methods for micro services
+        ✔ Worked on Splunk, New relic, Opsgenie for monitoring and alerting a large user application
+        ✔ Responsible for pull request reviews and code quality across micro front end applications
+        ✔ Worked on configuration development Strategies for fast changing ui components
+        ✔ Analyzed and improved core web vitals and seo scores
+        ✔ Created E2E and integration test cases for react application using playwright
+        ✔ Migrated monolithic javascript application into micro front-ends using typescript
+        Stack: Typescript, React, Next js, yarn, Micro front-end, Micro-services, Splunk, New relic, Playwright
+        `,
     },
     {
-      duration: "2018/Apr - Nov",
+      duration: "2020/Dec - 2021/May",
+      name: "Mobinius",
+      href: "https://www.mobinius.com/",
+      jobrole: "Front End Developer",
+      Highlights: `
+        Scikraft:
+        ✔ Responsible for maintaining/Bug fixing and developing UI features in scientific IOT project using react-native with Bluetooth (BLE manager)
+        ✔ Implemented data flow from collecting sensor data to rendering in table and graph
+        ✔ Implemented Interaction manager from react native for performance optimizations
+        ✔ Extensively used react hooks and on memorization techniques
+        Stack: JSX, CSS, JavaScript, React Native, Bluetooth manager, Visual studio code, NPM, Agile
+        
+        Neuroglee:
+        ✔ Developed chat application for web app using React.js, material UI, Graph Ql with twillio
+        ✔ Completely configured Twillio for instant texts, audio, video messages using WEBRTC protocol
+        ✔ Implemented Video call and audio call from web using twillio platform
+        ✔ Developed chat application for mobile app using React native with twillio
+        ✔ Configured Twillio for video call, audio calls and instant messaging service from mobile
+        ✔ Written Mutations and Query with GraphQL and implemented cache techniques with Apollo GraphQL
+        Stack: React, React Native, Twillio, GraphQl, Visual studio code, Agile
+        `,
+    },
+    {
+      duration: "2018/Aug - 2020/Dec",
+      name: "Bosch (Mobinius Payroll)",
+      href: "https://www.mobinius.com/",
+      jobrole: "Front End Developer",
+      Highlights: `
+        ✔ Developed react with typescript project using Webpack for an supply chain application on food tracking
+        ✔ Implemented sagas with generators as middleware for redux
+        ✔ Integrated google maps for food tracking, by showing routes and custom markers
+        ✔ Implemented session and refresh token flow using browser storage
+        ✔ Completely dockerized the application and written docker configurations
+        ✔ Used google cloud platform for google maps, geo coding, directions, OAuth2 and drive services
+        ✔ Worked on caching api calls using SWR (Stale while revalidating) techniques for react application
+        Stack: Typescript, React, GCP, web-pack, Azure, G Maps
+        `,
+    },
+    {
+      duration: "2018/Dec - 2020/July",
+      name: "Infosys",
+      href: "https://www.infosys.com/",
+      jobrole: "UI Full Stack Developer",
+      Highlights: `
+        ✔ Involved in the complete Software Development Life Cycle (SDLC) including gathering Requirements, Analysis, Design, Implementation, Testing and Maintenance
+        ✔ Developed responsive web apps using Material design, CSS framework
+        ✔ Used Redux to manage the whole state of the application with well-designed stores, actions and reducers
+        ✔ Strong knowledge in react hooks and creating reusable Components with custom hooks
+        ✔ Implemented React router for building the single page application
+        ✔ Designed and developed RESTFUL web services using Spring Boot
+        ✔ Worked with the Node package manager (NPM) along with Jest
+        ✔ SQL Development - used complex queries for the web interface using MariaDB
+        Stack: JSX, CSS, JavaScript, React.Js, SQL, Java SE 8, Eclipse, Agile
+        `,
+    },
+    {
+      duration: "2018/Apr - 2018/Dec",
       name: "Shalom Infotech",
       href: "http://www.shalominfotech.com/",
-      jobrole: "Jr. Mobile app developer",
-      Highlights:
-        "Developed,Maintained,Deployed various native android application",
+      jobrole: "Jr. Mobile App Developer",
+      Highlights: `
+        ✔ Responsible for maintaining/Bug fixing and developing UI features in mHealth applications
+        ✔ Programmed using Java and XML in Android SDK platform for modular and robust code
+        ✔ Deployed the app on the Google Play Store for different beta and stable releases of the app
+        ✔ Has been a UI developer for Android application creating the project generic Application interfaces, building signed apk and play store deployment
+        Stack: Java, XML, Eclipse, Android studio, Waterfall
+        `,
     },
   ];
 
@@ -83,23 +156,27 @@ const workdetails = () => {
 const myProducts = () => {
   let arr = [
     {
-      duration: "2020/Apr",
-      name: "Covid-19",
-      web_href: "https://elastic-hugle-e08f29.netlify.app/",
-      mobile_href:
-        "https://drive.google.com/file/d/1ffwQq42aO7M8nnv-u-kOyDiIrC2t7Uv0/view?usp=sharing",
+      duration: "2025/Aug",
+      name: "Roots&Wings",
+      web_href: "https://frontend-944856745086.europe-west2.run.app/",
+      mobile_href: false,
     },
     {
-      duration: "2020/May",
-      name: "Contacts-CRM",
-      web_href: "https://mallik-crm-dashboard.netlify.app/",
-      mobile_href:
-        "https://drive.google.com/file/d/1F_QMsTiKeOv-GS0zaWZwgGOv5igdwI9Q/view",
+      duration: "2022/Dec",
+      name: "Rampage clothing",
+      web_href: "https://rampage-clothing.netlify.app/",
+      mobile_href: false,
     },
     {
-      duration: "2020/May",
-      name: "Bank Details-India",
-      web_href: "https://banks-details.netlify.app/",
+      duration: "2021/Sep",
+      name: "Vyn photo studio",
+      web_href: "https://studios.vybn.in/",
+      mobile_href: false,
+    },
+    {
+      duration: "2020/Jun",
+      name: "Star Lions matriculation schools",
+      web_href: "https://www.starlionsmatriculationschools.org/",
       mobile_href: false,
     },
   ];
@@ -224,7 +301,6 @@ const Project = () => {
                 id={"collapse" + index}
                 name={project.name}
                 href={project.href}
-                name={project.name}
                 setProject={(e) => {
                   setshalomProjects(e);
                   if (document.getElementById("shalom")) {

@@ -2,7 +2,7 @@
   "backgroundType": "gradient",
   "plainBackgroundMode": "daylight",
   "devIntro": "Mallikarjuna Sharma",
-  "devDesc": "| Engineer | Programmer | Web Developer | Mobile App Developer ",
+  "devDesc": "| Senior Software Engineer | Full Stack Developer | AWS Certified Solutions Architect | Safe Scrum Master ",
   "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
   "icons": [
     {
@@ -34,7 +34,7 @@
   "instaUsername": "rmalliksharma96",
   "instaQuerry": "/?__a=1",
   "showInstaProfilePic": true,
-  "aboutDev": "Specialized front-end technologies using react native react.js android SDK. with experience on full stack web development using node.js SQl",
+  "aboutDev": "Around 7.5 years of overall Experience in software development. Certified Safe scrum master and AWS Certified Solutions Architect - Associate. Experienced in developing React, Node, Express, MongoDB and AWS applications. Expertise in developing highly interactive rich Web UI using React JS, improving Core web vitals and SEO scores, managing large user bases with DevOps tools like Splunk, Jenkins and New Relic, and working with AWS services including S3, Lambda, SQS, SNS and API Gateway.",
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "mallikarjuna-sharma",
   "gitHubQuerry": "/repos?sort=updated&direction=desc",
